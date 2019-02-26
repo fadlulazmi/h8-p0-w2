@@ -1,0 +1,57 @@
+1. Newton Second Law
+
+STORE "mass" to 600
+STORE "acceleration" to 2 
+
+CALCULATE "mass" times "acceleration"
+DISPLAY calculation result
+
+
+2. Tahun kabisat
+
+STORE "year" to any number
+
+IF "year" divide by 4 equal mod 0 and divide by 100 equal mod not 0 
+ DO "KABISAT"
+
+ELSE IF "year" divide by 4 equal mod 0, divide by 100 equal mod 0 and divide by 400 equal mod 0 
+ DO "KABISAT"
+
+ELSE 
+ DO "NOT KABISAT"
+
+
+3. Laundry Day
+
+STORE "Laundry" to any number
+
+IF "Laundry" less than 20
+  DO "input more"
+ELSE "Laundry" equals 20
+  DO "Start Machine"
+
+
+
+4. Periksa Kuku
+
+STORE "student" to 1
+
+WHILE "student" less than 41
+	DISPLAY "student"
+	CALCULATE "student" equal "long nail"
+	STORE "nails" to the result of calculation
+	IF "nails" equals "long nail"
+	 DISPLAY "Get Punishment"
+	ELSE
+	 DISPLAY "Get Compliment"
+ 
+ 
+ 
+
+
+
+
+
+
+
+
